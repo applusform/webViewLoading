@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Created by ApplusForm.com on 2015.01.07
+
+	Permission is granted to copy, distribute, modify under the terms of ApplusForm License.
+
+	Copyright (C) 2015 ApplusForm.com. All rights reserved.
+-->
+<MOML version="1.1.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.applusform.com/xsd/moml_ui.xsd">
+	<UILAYOUT portrait="720,1230" landscape="720,1230">
+		<AGATEWEBVIEW id="webView" layout="0,0,720,1230" controls="none" supportZoom="true" src="http://google.com" loadingIndicator="none">
+			<LINKMAP>
+				<LINK url="*" onStart="animation.show('loading', 'fade', '', 500,'')" onFinish="animation.hide('loading', 'fade', '', 400,'')"/>
+			</LINKMAP>
+		</AGATEWEBVIEW>
+		<WINDOW id="loading" layout="0,0,720,1230" visible="invisible" align="linear:center" defaultImg="#30000000">
+			<FRAMEANIMATION layout="200sr,200sr" duration="100" repeat="true" autoStart="true">
+				<ITEM src="/res/progressInternetEarth01.png" />
+				<ITEM src="/res/progressInternetEarth02.png" />
+				<ITEM src="/res/progressInternetEarth03.png" />
+				<ITEM src="/res/progressInternetEarth04.png" />
+				<ITEM src="/res/progressInternetEarth05.png" />
+				<ITEM src="/res/progressInternetEarth06.png" />
+				<ITEM src="/res/progressInternetEarth07.png" />
+				<ITEM src="/res/progressInternetEarth08.png" />
+				<ITEM src="/res/progressInternetEarth09.png" />
+				<ITEM src="/res/progressInternetEarth10.png" />
+				<ITEM src="/res/progressInternetEarth11.png" />
+				<ITEM src="/res/progressInternetEarth12.png" />
+				<ITEM src="/res/progressInternetEarth13.png" />
+				<ITEM src="/res/progressInternetEarth14.png" />
+				<ITEM src="/res/progressInternetEarth15.png" />
+				<ITEM src="/res/progressInternetEarth16.png" />
+				<ITEM src="/res/progressInternetEarth17.png" />
+				<ITEM src="/res/progressInternetEarth18.png" />
+				<ITEM src="/res/progressInternetEarth19.png" />
+				<ITEM src="/res/progressInternetEarth21.png" />
+				<ITEM src="/res/progressInternetEarth22.png" />
+				<ITEM src="/res/progressInternetEarth23.png" />
+				<ITEM src="/res/progressInternetEarth24.png" />
+				<ITEM src="/res/progressInternetEarth25.png" />
+				<ITEM src="/res/progressInternetEarth26.png" />
+				<ITEM src="/res/progressInternetEarth27.png" />
+				<ITEM src="/res/progressInternetEarth28.png" />
+				<ITEM src="/res/progressInternetEarth29.png" />
+				<ITEM src="/res/progressInternetEarth30.png" />
+			</FRAMEANIMATION>
+		</WINDOW>
+	</UILAYOUT>
+</MOML>

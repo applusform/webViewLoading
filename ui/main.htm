@@ -1,0 +1,31 @@
+﻿<!DOCTYPE HTML >
+<!--
+	Created by ApplusForm.com on 2015.01.07
+
+	Permission is granted to copy, distribute, modify under the terms of ApplusForm License.
+
+	Copyright (C) 2015 ApplusForm.com. All rights reserved.
+-->
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+		charset="utf-8" />
+	<script type="text/javascript">
+		function findAddress() {
+			window.open("popup.htm", "addressPopup");
+		}
+		function clearAddress() {
+			var foundAddress = document.getElementById("foundAddress");
+			foundAddress.innerHTML = "";
+		}
+	</script>
+</head>
+<body>
+	<p>
+		Address : <span id="foundAddress" ></span><br />
+		<button onclick="findAddress()">Find Address</button><button onclick="clearAddress()">Clear</button>
+	</p>
+</body>
+</html>
