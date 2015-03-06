@@ -2,7 +2,7 @@
 Custom loading indicator
 
 Screen shot :
-![Screen shot](http://applusform.github.io/webviewLoading/screenShot.png)
+![Screen shot](http://applusform.github.io/webViewLoading/screenShot.png)
 
 -
 ##### How to test this?
